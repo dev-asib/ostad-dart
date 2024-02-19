@@ -13,4 +13,6 @@ void main(){
   print(myList);
   myList.removeWhere((item) => item==500);
   print(myList);
+  myList.clear();
+  print(myList);
 }

@@ -14,8 +14,14 @@ main(){
   Set<int> intSet={1,2,3,4,5,};
   print(intSet);
   print(intSet.runtimeType);
+  intSet={111,222,333,444};
+  print(intSet);
+  print(intSet.runtimeType);
 
   Set stringSet=<String>{'Dhaka','Manikganj','Rangpur'};
+  print(stringSet);
+  print(stringSet.runtimeType);
+  stringSet=<String>{'Delhi','Kolkata','Mumbai'};
   print(stringSet);
   print(stringSet.runtimeType);
 }
