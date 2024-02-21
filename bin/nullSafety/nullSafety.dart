@@ -12,9 +12,9 @@ void main(){
   print(department);
 
 
-  String?  myInstitute;
+  String?  institue;
   void stringIntoInteger(String myInstitute){
 
   }
- stringIntoInteger(myInstitute!);
+ stringIntoInteger(institue!);
 }
