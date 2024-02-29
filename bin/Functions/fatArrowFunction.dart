@@ -1,6 +1,6 @@
 void main(){
-  arrowFunction()=>print('This is Arrow Function');
-  arrowFunction();
+  fatArrowFunction()=>print('This is Arrow Function');
+  fatArrowFunction();
 
   print(sumNumbers());
 

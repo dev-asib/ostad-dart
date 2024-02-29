@@ -1,20 +1,14 @@
 void main(){
-  //Null Safety(late,!,?)
   String? name;
+  print(name);
   name='Asib';
   print(name);
 
-  String? city;
-  print(city);
+  int? number1;
+  int number2=10;
+  print(number1 ?? 12 + number2);
 
-  late String department;
-  department='CSE';
-  print(department);
-
-
-  String?  institue;
-  void stringIntoInteger(String myInstitute){
-
-  }
- stringIntoInteger(institue!);
+  final int? age;
+  age=10;
+  print(age);
 }

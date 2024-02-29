@@ -12,6 +12,11 @@ myProfession('Flutter Developer');
 myProfession('Java Software Developer');
 
 print(myName());
+
+print(sum(10, 20));
+
+double valuesSum=sumValue(10, 20.45);
+print(valuesSum);
 }
 
 addTwoNumbers(int number1, int number2){
@@ -35,4 +40,13 @@ myProfession(String developer){
 
 myName(){
   return "My name is Asib";
+}
+
+sum(int numb1,int numb2){
+  int result= numb1+numb2;
+  return result;
+}
+
+double sumValue(int value1, double value2){
+  return value2+value1;
 }
