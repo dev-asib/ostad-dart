@@ -124,3 +124,7 @@ class ScienceStudent implements Student, Human{
   }
 
 }
+
+class CSTStudent{
+
+}
