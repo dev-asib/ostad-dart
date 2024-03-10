@@ -1,10 +1,10 @@
-class Media{
-  void play(){
+class Media {
+  void play() {
     print("Playing media...");
   }
 }
 
-class Song extends Media{
+class Song extends Media {
   String artist;
   Song(this.artist);
 
@@ -14,10 +14,10 @@ class Song extends Media{
   }
 }
 
-void main(){
-  Media media=Media();
+void main() {
+  Media media = Media();
   media.play();
 
-  Song song=Song("Asib");
+  Song song = Song("Asib");
   song.play();
 }
