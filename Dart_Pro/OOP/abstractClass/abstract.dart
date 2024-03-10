@@ -3,6 +3,7 @@ void main(){
 }
 
 abstract class Human{
+
   void eating();
   void learning();
   void walking(){
